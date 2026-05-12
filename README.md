@@ -49,3 +49,15 @@ https://serpx.ai/blog
 This repository is used for public documentation and project visibility.
 
 The core platform source code remains private.
+
+## Official Links
+
+- Website: https://serpx.ai
+- LinkedIn: https://linkedin.com/company/serpx
+- Twitter/X: https://x.com/serpxai
+- Instagram: https://instagram.com/serpxai
+- Telegram: https://t.me/serpxai
+
+## Connect With SerpX
+
+Follow SerpX for SEO insights, AI workflows, product updates, and technical SEO resources.
