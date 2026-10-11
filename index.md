@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "SerpX | AI-Powered SEO Tools"
