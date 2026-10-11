@@ -1,9 +1,10 @@
 
 ---
 layout: default
-title: SerpX | AI-Powered SEO Tools
-description: Explore AI-powered SEO tools for keyword research, backlink analysis, competitor insights, and website optimization.
+title: "SerpX | AI-Powered SEO Tools"
+description: "Explore AI-powered SEO tools for keyword research, backlink analysis, competitor insights, and website optimization."
 ---
+
 
 # SerpX — AI-Powered SEO Platform
 
