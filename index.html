@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071630">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <title>SerpX Developer Hub | SEO APIs, Technical Guides & Tools</title>
+  <meta name="description" content="Explore the SerpX Developer Hub: SEO API documentation, practical technical SEO checklists, implementation examples, and tools for building better websites.">
+  <link rel="canonical" href="https://mehditln.github.io/SerpX/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SerpX">
+  <meta property="og:title" content="SerpX Developer Hub | SEO APIs, Technical Guides & Tools">
+  <meta property="og:description" content="Practical technical SEO resources, API documentation, code examples, and tools from SerpX.">
+  <meta property="og:url" content="https://mehditln.github.io/SerpX/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SerpX Developer Hub">
+  <meta name="twitter:description" content="API references, code examples, SEO workflows, and technical resources for developers.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b1731'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='37' font-family='Arial' font-weight='bold' fill='%2378b9ff'%3EX%3C/text%3E%3C/svg%3E">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SerpX Developer Hub",
+    "url": "https://mehditln.github.io/SerpX/",
+    "description": "Technical SEO resources, API documentation, and practical implementation guidance from SerpX.",
+    "inLanguage": "en",
+    "about": { "@type": "SoftwareApplication", "name": "SerpX", "url": "https://serpx.ai/", "applicationCategory": "BusinessApplication" },
+    "publisher": { "@type": "Organization", "name": "SerpX", "url": "https://serpx.ai/" }
+  }
+  </script>
+  <style>
+    :root{--ink:#142440;--muted:#64748b;--line:#e5eaf3;--paper:#fff;--bg:#f7f9fd;--blue:#2563eb;--blue2:#3b82f6;--deep:#071631;--soft:#eff6ff;--radius:20px;--shadow:0 18px 55px rgba(23,44,86,.055)}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:94px}
+    body{margin:0;color:var(--ink);background:var(--bg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    button,input,textarea{font:inherit}
+    a:focus-visible,summary:focus-visible{outline:3px solid #60a5fa;outline-offset:4px;border-radius:5px}
+    .skip{position:absolute;top:-90px;left:12px;background:#fff;color:#1d4ed8;padding:9px 14px;z-index:50}.skip:focus{top:9px}
+    .container{width:min(1160px,calc(100% - 48px));margin-inline:auto}
+    .eyebrow{text-transform:uppercase;letter-spacing:.17em;font-weight:800;font-size:11px;line-height:1.4;color:#4e7cda}
+    .muted{color:var(--muted)}
+    .topline{background:#081a3a;color:#c8d9f5;font-size:12px}
+    .topline .container{min-height:37px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .topline a{color:#e5f0ff;text-decoration:underline;text-underline-offset:3px}
+    .online-dot{display:inline-block;height:7px;width:7px;border-radius:50%;background:#59d9ba;margin-right:8px;box-shadow:0 0 0 4px rgba(89,217,186,.1)}
+    .header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;min-height:75px;gap:24px}
+    .brand{display:inline-flex;align-items:center;gap:10px;flex-shrink:0;white-space:nowrap}
+    .brandmark{display:inline-grid;place-items:center;width:38px;height:38px;background:#091b39;color:#fff;border-radius:12px;font-size:21px;font-weight:850;letter-spacing:-.1em;box-shadow:inset 0 -2px 0 rgba(255,255,255,.07)}
+    .brandmark span{color:#74c0fc}
+    .brandname{font-weight:820;font-size:20px;letter-spacing:-.075em;line-height:1}
+    .brandname small{font-size:12px;letter-spacing:.01em;margin-left:10px;padding-left:12px;border-left:1px solid #d5deeb;color:#64748b;font-weight:600}
+    .navlinks{display:flex;align-items:center;gap:28px;font-weight:650;font-size:13px;color:#475569}
+    .navlinks a:hover,.text-link:hover,.small-link:hover{color:var(--blue)}
+    .nav-actions{display:flex;align-items:center;gap:14px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 18px;border:1px solid transparent;border-radius:10px;font-size:13px;line-height:1.3;font-weight:750;white-space:nowrap;transition:transform .2s ease,background .2s ease,border-color .2s ease}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:#2563eb;color:#fff;box-shadow:0 8px 20px rgba(37,99,235,.18)}.btn-primary:hover{background:#1d4ed8}
+    .btn-white{background:#fff;color:#133267}.btn-white:hover{background:#eaf3ff}
+    .btn-outline{border-color:rgba(255,255,255,.32);color:#f5f9ff;background:rgba(255,255,255,.045)}.btn-outline:hover{background:rgba(255,255,255,.12)}
+    .btn-light{border-color:#dbe5f3;background:#fff;color:#21416c}.btn-light:hover{border-color:#a9c5ed}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse 850px 450px at 75% 30%,rgba(38,103,228,.23),transparent 70%),linear-gradient(128deg,#07152f 0%,#0b244b 65%,#102d59 100%);color:#fff}
+    .hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(154,200,255,.18) 1px,transparent 1px);background-size:25px 25px;opacity:.16;mask-image:linear-gradient(90deg,transparent 18%,#000 100%);pointer-events:none}
+    .hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:62px;padding:90px 0 98px}
+    .hero .eyebrow{color:#8ac5ff}
+    .hero h1{font-size:clamp(39px,4.5vw,65px);line-height:1.1;letter-spacing:-.065em;margin:19px 0 23px;max-width:690px}
+    .hero h1 em{font-style:normal;background:linear-gradient(100deg,#8ac9ff,#8fb4ff,#d2eaff);background-clip:text;-webkit-background-clip:text;color:transparent}
+    .hero-copy{color:#b8cbe7;max-width:560px;font-size:17px;line-height:1.8;margin:0 0 31px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+    .hero-notes{display:flex;flex-wrap:wrap;gap:19px;font-size:12px;color:#b5ccec;margin-top:30px}
+    .hero-notes span:before{content:"✓";color:#73debd;font-weight:800;margin-right:8px}
+    .terminal{position:relative;border:1px solid rgba(148,179,222,.27);background:#071326;border-radius:18px;overflow:hidden;box-shadow:0 32px 90px rgba(0,0,0,.32),0 0 0 7px rgba(255,255,255,.025)}
+    .terminal-head{height:49px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(160,190,229,.12);background:#0e1d37;padding:0 19px;font-size:11px;color:#9db2d0}
+    .dots{display:flex;gap:6px}.dots i{height:9px;width:9px;border-radius:50%;background:#fb766f}.dots i:nth-child(2){background:#f8c96c}.dots i:nth-child(3){background:#5ad8ae}
+    .terminal pre{padding:23px 22px 14px;margin:0;color:#d4e5f8;overflow-x:auto;white-space:pre;font-size:12.5px;line-height:2;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;tab-size:2}
+    .cmd{color:#78e4c0}.route{color:#8dbbff}.key{color:#ffcf91}.cmnt{color:#7792b7}
+    .terminal-result{border-top:1px solid rgba(160,190,229,.12);padding:17px 22px 20px;background:rgba(52,101,185,.07);display:flex;justify-content:space-between;gap:10px;color:#aabdd9;font-size:12px}
+    .status{color:#75dfb3;font-weight:700}
+    .terminal-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:15px 1px 0;color:#a5c1eb;font-size:12px}
+    .terminal-footer a{color:#b7d6ff;text-decoration:underline;text-underline-offset:3px}
+    .section{padding:87px 0}
+    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px}
+    .section-heading h2{font-size:clamp(29px,3vw,40px);letter-spacing:-.055em;line-height:1.18;margin:11px 0 10px}
+    .section-heading p{max-width:610px;margin:0;color:var(--muted);font-size:15px}
+    .small-link{font-size:13px;font-weight:750;color:#2563eb;white-space:nowrap;padding-bottom:8px}
+    .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .feature-card,.doc-card,.resource-card,.step-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .feature-card{padding:29px;min-height:246px;display:flex;flex-direction:column;align-items:start}
+    .feature-card h3,.resource-card h3,.doc-card h3{font-size:18px;line-height:1.35;letter-spacing:-.035em;margin:17px 0 10px}
+    .feature-card p,.resource-card p,.doc-card p{color:#68788f;font-size:14px;line-height:1.75;margin:0}
+    .feature-card .small-link{margin-top:auto;padding-top:21px}
+    .iconbox{height:45px;width:45px;display:grid;place-items:center;border-radius:13px;background:#eaf2ff;color:#205bd2}
+    .iconbox svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    .white-block{background:#fff;border-block:1px solid var(--line)}
+    .doc-card{padding:26px 27px;display:flex;flex-direction:column;align-items:start;position:relative}
+    .doc-card .type{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.09em;color:#2463ce;background:#edf4ff;padding:5px 10px;border-radius:5px}
+    .doc-card .small-link{margin-top:auto;padding-top:18px}
+    .endpoint{display:inline-block;margin:15px 0 0;padding:9px 10px;border-radius:7px;background:#f1f5fb;color:#32517f;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;max-width:100%;overflow-wrap:anywhere}
+    .api-layout{display:grid;grid-template-columns:.87fr 1.13fr;gap:46px;align-items:center;margin-top:39px}
+    .api-layout h3{font-size:27px;letter-spacing:-.045em;line-height:1.3;margin:9px 0 14px}
+    .api-layout p{color:var(--muted);font-size:14px}
+    .mini-steps{list-style:none;padding:0;margin:25px 0 25px;display:grid;gap:12px}
+    .mini-steps li{display:flex;align-items:start;gap:13px;font-size:14px;color:#47617f}
+    .number{width:26px;height:26px;flex:0 0 26px;display:inline-grid;place-items:center;border-radius:8px;background:#e9f2ff;color:#2862d4;font-size:12px;font-weight:800}
+    .code-panel{background:#0a1730;color:#cfe1ff;border-radius:17px;overflow:hidden;box-shadow:0 18px 50px rgba(2,15,42,.13)}
+    .code-top{display:flex;align-items:center;justify-content:space-between;padding:13px 17px;border-bottom:1px solid #233754;color:#90b2de;font-size:12px}
+    .code-panel pre{margin:0;padding:20px 19px;overflow-x:auto;font:12.5px/1.9 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+    .code-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid #233754;padding:12px 17px;font-size:11px;color:#97acca}
+    .code-bottom a{color:#9acbff;text-decoration:underline}
+    .workflow{background:linear-gradient(180deg,#f7f9fd 0%,#eff5ff 100%)}
+    .step-card{position:relative;padding:27px 24px}
+    .step-num{font-size:12px;letter-spacing:.15em;color:#3c77dd;font-weight:800}
+    .step-card h3{font-size:17px;margin:12px 0 9px;letter-spacing:-.025em}
+    .step-card p{font-size:13px;color:var(--muted);margin:0}
+    .checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .check-item{display:flex;gap:14px;padding:21px 23px;border:1px solid var(--line);border-radius:14px;background:#fff;align-items:start}
+    .tick{display:grid;place-items:center;flex:0 0 25px;height:25px;border-radius:50%;background:#e6f7f0;color:#15976e;font-weight:800;font-size:14px}
+    .check-item strong{display:block;font-size:14px;margin-bottom:5px}
+    .check-item p{margin:0;font-size:12.5px;line-height:1.7;color:#708096}
+    .resources{background:#fff;border-block:1px solid var(--line)}
+    .resource-card{padding:27px;box-shadow:none}
+    .resource-meta{font-size:11px;font-weight:800;letter-spacing:.08em;color:#5276b9;text-transform:uppercase}
+    .resource-card h3{margin-top:11px}
+    .resource-card a{font-size:13px;font-weight:750;color:var(--blue);display:inline-flex;margin-top:19px}
+    .faq-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:45px;align-items:start}
+    .faq-layout h2{font-size:35px;letter-spacing:-.05em;line-height:1.15;margin:9px 0 15px}
+    .faq-layout p{color:#6b7b91;font-size:14px}
+    .faq-items{display:grid;gap:11px}
+    details{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px 21px}
+    details[open]{border-color:#bcd4ff;box-shadow:0 7px 25px rgba(37,99,235,.05)}
+    summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px;font-weight:750;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";font-weight:400;font-size:24px;color:#5e8dde;line-height:1}
+    details[open] summary:after{content:"−"}
+    details p{font-size:13px;line-height:1.8;margin:13px 0 0;color:var(--muted)}
+    details a{color:#1d5fd2;text-decoration:underline;text-underline-offset:2px}
+    .cta{position:relative;overflow:hidden;background:linear-gradient(110deg,#0a2044,#12468e);border-radius:24px;padding:50px 56px;display:flex;align-items:center;justify-content:space-between;gap:32px;color:#fff}
+    .cta:after{content:"";position:absolute;width:320px;height:320px;border:1px solid rgba(255,255,255,.13);border-radius:50%;right:175px;top:-190px;box-shadow:0 0 0 70px rgba(255,255,255,.025),0 0 0 140px rgba(255,255,255,.018);pointer-events:none}
+    .cta h2{position:relative;z-index:1;font-size:32px;line-height:1.2;letter-spacing:-.045em;margin:11px 0}
+    .cta p{color:#c0d8fa;font-size:14px;margin:0;max-width:550px}
+    .cta .btn{position:relative;z-index:1;flex-shrink:0}
+    footer{padding:46px 0 30px;background:#09182f;color:#c1d0e6;margin-top:85px}
+    .footer-grid{display:flex;justify-content:space-between;align-items:start;gap:32px;padding-bottom:32px}
+    .footer-grid .brandname{color:#fff}.footer-grid .brandname small{color:#a4b7d3;border-color:#2a4261}
+    .footer-grid p{font-size:12.5px;max-width:420px;color:#99afcc}
+    .footer-links{display:flex;flex-wrap:wrap;gap:18px;color:#d3e2f7;font-size:13px}
+    .footer-links a:hover{color:white;text-decoration:underline}
+    .footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid #223755;padding-top:23px;font-size:12px;color:#8fa7c5}
+    .footer-bottom a{color:#c7defa}
+    @media(max-width:1000px){.hero-grid{gap:31px}.navlinks{gap:15px}.brandname small{display:none}.hero h1{font-size:45px}.container{width:min(1160px,calc(100% - 40px))}}
+    @media(max-width:800px){.topline .container{justify-content:center}.topline .quiet{display:none}.nav{flex-wrap:wrap;gap:10px;padding:13px 0}.navlinks{order:3;justify-content:space-between;width:100%;overflow-x:auto;padding:9px 0 3px;gap:22px}.nav-actions .btn{padding:10px 13px}.hero-grid{grid-template-columns:1fr;padding:68px 0 65px}.hero h1{font-size:clamp(39px,7vw,56px)}.terminal{max-width:650px;width:100%}.section{padding:66px 0}.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}.api-layout{grid-template-columns:1fr;gap:22px}.faq-layout{grid-template-columns:1fr;gap:12px}.cta{padding:38px;flex-wrap:wrap}.footer-grid{flex-wrap:wrap}}
+    @media(max-width:570px){.container{width:calc(100% - 32px)}.topline{font-size:10px}.brandname{font-size:18px}.navlinks{font-size:12px}.hero-grid{padding:58px 0 62px}.hero h1{font-size:40px}.hero-copy{font-size:15px}.hero-actions .btn{flex:1;min-width:170px}.terminal pre{font-size:11.2px;padding:17px 14px}.terminal-result{padding:15px}.section-heading{display:block}.section-heading h2{font-size:31px}.grid3,.grid2,.checklist{grid-template-columns:1fr}.feature-card{min-height:0}.section{padding:57px 0}.faq-layout h2{font-size:30px}.cta{padding:34px 24px}.cta h2{font-size:29px}.cta .btn{width:100%}.footer-grid{display:block}.footer-links{margin-top:26px}.footer-bottom{display:block}.footer-bottom span{display:block;margin-bottom:7px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="topline">
+    <div class="container"><span><i class="online-dot" aria-hidden="true"></i>PUBLIC DEVELOPER RESOURCES · SERPX</span><span class="quiet">Building search-friendly experiences? <a href="https://serpx.ai/tools">Explore the SEO toolkit ↗</a></span></div>
+  </div>
+  <header class="header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a href="#top" class="brand" aria-label="SerpX Developer Hub home"><span class="brandmark" aria-hidden="true"><span>X</span></span><span class="brandname">SerpX<small>Developer Hub</small></span></a>
+      <div class="navlinks"><a href="#explore">Platform</a><a href="#api">API Reference</a><a href="#playbook">SEO Playbook</a><a href="#resources">Resources</a></div>
+      <div class="nav-actions"><a class="btn btn-primary" href="https://serpx.ai/" aria-label="Visit SerpX website">Visit SerpX <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">SERPX / DEVELOPER RESOURCES</div>
+          <h1 id="hero-title">Build better websites.<br><em>Understand search.</em></h1>
+          <p class="hero-copy">A practical home for technical SEO implementation, real API references, and research workflows. Learn the fundamentals, inspect your pages, and move from data to meaningful improvements.</p>
+          <div class="hero-actions"><a href="#api" class="btn btn-white">Explore API docs <span aria-hidden="true">↗</span></a><a href="https://github.com/MehdiTLN/SerpX" class="btn btn-outline">View on GitHub <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-notes"><span>Developer-focused</span><span>Practical examples</span><span>SEO-first workflows</span></div>
+        </div>
+        <div>
+          <div class="terminal" aria-label="Example SerpX API request">
+            <div class="terminal-head"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span>terminal / serpx-api</span><span>cURL</span></div>
+            <pre><code><span class="cmnt"># List websites in your SerpX account</span>
+<span class="cmd">curl</span> -X GET \
+  <span class="route">'https://serpx.ai/api/v1/websites'</span> \
+  -H <span class="key">'Accept: application/json'</span> \
+  -H <span class="key">'Authorization: Bearer YOUR_API_KEY'</span></code></pre>
+            <div class="terminal-result"><span>Authenticated endpoint · API key required</span><span class="status">● API example</span></div>
+          </div>
+          <div class="terminal-footer"><span>Documented on SerpX</span><a href="https://serpx.ai/developers/websites">Read official API documentation ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="explore" aria-labelledby="explore-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">01 / PLATFORM WORKFLOWS</div><h2 id="explore-title">A more practical way to work on SEO.</h2><p>From technical checks to competitive research, these are the workflows you can explore in the SerpX platform.</p></div><a class="small-link" href="https://serpx.ai/tools">All SEO tools ↗</a></div>
+        <div class="grid3">
+          <article class="feature-card"><span class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 13h4m-4 4h7"/></svg></span><h3>Technical SEO checks</h3><p>Review metadata, page structure, HTTP headers, and website issues before they affect discovery.</p><a class="small-link" href="https://serpx.ai/tools/meta-tags-checker">Try the Meta Tags Checker ↗</a></article>
+          <article class="feature-card"><span class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M8 11h6m-3-3v6"/></svg></span><h3>Competitor intelligence</h3><p>Research competing websites to understand their visibility, relevant keywords, and opportunities.</p><a class="small-link" href="https://serpx.ai/tools/competitor-keywords">Research competitor keywords ↗</a></article>
+          <article class="feature-card"><span class="iconbox" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19V5m0 14h17M8 15l4-5 3 2 5-7"/><circle cx="20" cy="5" r="1"/></svg></span><h3>Keyword gap analysis</h3><p>Compare domains, spot missing search topics, and identify areas to prioritize in a content plan.</p><a class="small-link" href="https://serpx.ai/tools/keyword-gap">Explore keyword gaps ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white-block" id="api" aria-labelledby="api-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">02 / DOCUMENTATION</div><h2 id="api-title">API resources for developers.</h2><p>Start with the published SerpX developer references. Authentication and access depend on your account and API permissions.</p></div><a class="small-link" href="https://serpx.ai/developers">Developer documentation ↗</a></div>
+        <div class="grid2">
+          <article class="doc-card"><span class="type">REST API / WEBSITES</span><h3>Websites API</h3><p>Explore documented endpoints to list, retrieve, update, and manage website records.</p><code class="endpoint">GET /api/v1/websites</code><a class="small-link" href="https://serpx.ai/developers/websites">Read Websites API docs ↗</a></article>
+          <article class="doc-card"><span class="type">REST API / REPORTS</span><h3>Reports API</h3><p>Access documentation for listing, retrieving, and creating reports through the authenticated API.</p><code class="endpoint">GET /api/v1/reports</code><a class="small-link" href="https://serpx.ai/developers/reports">Read Reports API docs ↗</a></article>
+        </div>
+        <div class="api-layout">
+          <div>
+            <div class="eyebrow">AUTHENTICATED REQUESTS</div>
+            <h3>Start with a simple API call.</h3>
+            <p>Use the documented endpoint and supply your own API key. Always keep tokens server-side or in a secure secret store; never commit credentials to a public repository.</p>
+            <ol class="mini-steps"><li><span class="number">1</span>Review the official endpoint reference.</li><li><span class="number">2</span>Obtain an API key from your SerpX account if available to your plan.</li><li><span class="number">3</span>Make a read-only request and check the returned response.</li></ol>
+            <a class="btn btn-light" href="https://serpx.ai/developers/websites">Open endpoint guide <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="code-panel" aria-label="Read-only SerpX Reports API request example">
+            <div class="code-top"><span>reports-request.sh</span><span>bash · example</span></div>
+            <pre><code><span class="cmnt"># Replace YOUR_API_KEY with your own token</span>
+<span class="cmd">curl</span> --request GET \
+  <span class="route">'https://serpx.ai/api/v1/reports'</span> \
+  --header <span class="key">'Accept: application/json'</span> \
+  --header <span class="key">'Authorization: Bearer YOUR_API_KEY'</span></code></pre>
+            <div class="code-bottom"><span>Read-only GET request · No token included</span><a href="https://serpx.ai/developers/reports">API reference ↗</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow" id="playbook" aria-labelledby="playbook-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">03 / SEARCH ENGINEERING</div><h2 id="playbook-title">A repeatable SEO workflow.</h2><p>Good SEO is an engineering process: observe, validate, improve, and measure. Use this sequence for your next audit.</p></div></div>
+        <div class="grid3">
+          <article class="step-card"><div class="step-num">STEP 01</div><h3>Inspect the foundation</h3><p>Check crawl access, canonical URLs, metadata, indexability, and server responses before prioritizing content.</p></article>
+          <article class="step-card"><div class="step-num">STEP 02</div><h3>Compare with intent</h3><p>Research relevant search terms and competing pages. Identify mismatches between user needs and existing content.</p></article>
+          <article class="step-card"><div class="step-num">STEP 03</div><h3>Ship and measure</h3><p>Fix high-impact issues, document changes, and monitor performance through Search Console and analytics.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="checklist" aria-labelledby="checklist-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">04 / PRACTICAL CHECKLIST</div><h2 id="checklist-title">Technical SEO essentials.</h2><p>Six checkpoints worth reviewing for production websites, redesigns, and new deployments.</p></div></div>
+        <div class="checklist">
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Indexing directives</strong><p>Verify robots directives and check for unintended noindex headers or tags.</p></div></div>
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Canonical consistency</strong><p>Check that the canonical URL reflects the intended indexable page and variants.</p></div></div>
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Status and redirects</strong><p>Confirm HTTP response codes, redirect chains, and final destinations.</p></div></div>
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Structured data</strong><p>Use applicable schema types that accurately describe the visible content.</p></div></div>
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Performance and usability</strong><p>Review loading, stability, responsive behavior, and accessibility.</p></div></div>
+          <div class="check-item"><span class="tick" aria-hidden="true">✓</span><div><strong>Internal navigation</strong><p>Make key pages reachable through useful, crawlable, contextual links.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources" id="resources" aria-labelledby="resources-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">05 / TOOLBOX</div><h2 id="resources-title">Useful tools, without the noise.</h2><p>Direct links to focused tools and the public repository that maintains this developer resource.</p></div></div>
+        <div class="grid3">
+          <article class="resource-card"><span class="resource-meta">On-page / inspection</span><h3>Meta Tags Checker</h3><p>Inspect SEO metadata on a public URL and review what your HTML exposes.</p><a href="https://serpx.ai/tools/meta-tags-checker">Open tool ↗</a></article>
+          <article class="resource-card"><span class="resource-meta">Off-page / discovery</span><h3>Backlink Checker</h3><p>Explore inbound links, referring domains, and backlink profile signals.</p><a href="https://serpx.ai/tools/backlink-checker">Open tool ↗</a></article>
+          <article class="resource-card"><span class="resource-meta">Engineering / community</span><h3>Public Repository</h3><p>Find the project overview, available public resources, and repository updates.</p><a href="https://github.com/MehdiTLN/SerpX">View on GitHub ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div><div class="eyebrow">06 / FAQ</div><h2 id="faq-title">Frequently asked questions.</h2><p>A few important distinctions about the developer hub, public documentation, and SEO workflows.</p></div>
+        <div class="faq-items">
+          <details><summary>Is the full SerpX platform open source?</summary><p>No. This repository is a public-facing resource for documentation and project visibility. The core SerpX SaaS application source code is not published here.</p></details>
+          <details><summary>Does SerpX publish API documentation?</summary><p>Yes. The <a href="https://serpx.ai/developers/websites">Websites API</a> and <a href="https://serpx.ai/developers/reports">Reports API</a> references include documented endpoints and request examples. Access can depend on your account and permissions.</p></details>
+          <details><summary>Will running an SEO audit guarantee higher Google rankings?</summary><p>No. Audits identify potential issues and optimization opportunities. Search rankings depend on many factors, and specific outcomes cannot be guaranteed.</p></details>
+          <details><summary>Can I use this hub without an API key?</summary><p>Yes. Guides, checklists, and public links are available without authentication. Authenticated API requests require appropriate credentials.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" aria-labelledby="cta-title">
+      <div class="cta"><div><div class="eyebrow" style="color:#c0ddff">MOVE FROM INSIGHT TO ACTION</div><h2 id="cta-title">Ready to explore SerpX?</h2><p>Use the SEO toolkit to research your website, understand competitors, and prioritize the next improvements.</p></div><a class="btn btn-white" href="https://serpx.ai/">Explore SerpX tools <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-grid"><div><a href="#top" class="brand" aria-label="Back to SerpX Developer Hub top"><span class="brandmark" aria-hidden="true"><span>X</span></span><span class="brandname">SerpX<small>Developer Hub</small></span></a><p>Developer-facing technical SEO resources maintained alongside the public SerpX project. The core platform remains hosted at serpx.ai.</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="https://serpx.ai/">Website</a><a href="https://serpx.ai/tools">SEO Tools</a><a href="https://serpx.ai/developers/websites">Developers</a><a href="https://serpx.ai/blog">Blog</a><a href="https://github.com/MehdiTLN/SerpX">GitHub</a></nav></div>
+      <div class="footer-bottom"><span>© 2026 SerpX. Documentation and examples are provided for educational use.</span><span>Built for developers · <a href="https://serpx.ai/">Official SerpX website ↗</a></span></div>
+    </div>
+  </footer>
+</body>
+</html>
